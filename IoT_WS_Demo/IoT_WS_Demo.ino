@@ -50,11 +50,9 @@ DHT dht(DHTPIN, DHTTYPE);   //   DHT11 DHT21 DHT22
 #define VARIABLE_LABEL_1 "hum"  // Put your first variable API Label here
 #define VARIABLE_LABEL_2 "temp"   // Put your second variable API Label here
 
-#define SERVER_IP "192.168.1.42"
-
 #ifndef STASSID
-#define STASSID "Home Wifi"
-#define STAPSK  "41151581"
+#define STASSID "????????"
+#define STAPSK  "????????"
 #endif
 
 WiFiServer server(80);

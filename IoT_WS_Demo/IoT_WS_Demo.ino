@@ -43,12 +43,12 @@ DHT dht(DHTPIN, DHTTYPE);   //   DHT11 DHT21 DHT22
 #endif
 
 // ubidots.com
-// shahg, usua Ramandan
+// THE INFORMATION BELOW IS FOR REFERNCE ONLY, TO SERVE AS AN EXAMPLE. USE YOUR OWN UBIDOTS INFORMATION BELOW
 
-#define TOKEN "BBFF-753qtqUi9BcvEjsXya55iF4e8cZ12u"  // Put your TOKEN here
-#define DEVICE_LABEL "demo"      // Put your device API Label here 
-#define VARIABLE_LABEL_1 "hum"  // Put your first variable API Label here
-#define VARIABLE_LABEL_2 "temp"   // Put your second variable API Label here
+#define TOKEN "BBFF-123qtqUi9BcvEjsXya5iF4e8cZ12z"  // Put your Device TOKEN from Ubidots here
+#define DEVICE_LABEL "demo"      // Put your device API Label from Ubidots here 
+#define VARIABLE_LABEL_1 "hum"  // Put your first variable API Label from Ubidots here
+#define VARIABLE_LABEL_2 "temp"   // Put your second variable API Label from Ubidots here
 
 #ifndef STASSID
 #define STASSID "????????"
